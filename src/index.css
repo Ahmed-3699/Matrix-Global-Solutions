@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* width */
+.scroll-style::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.scroll-style::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+.scroll-style::-webkit-scrollbar-thumb {
+    background: rgb(255,49,49); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.scroll-style::-webkit-scrollbar-thumb:hover {
+    background: rgb(255,49,49); 
+  }
+
+.Main-Section{
+    background-image: url("./Images/business-people-working-in-the-office-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.actionNow{
+    background-image: url('./Images/Cloud_Computing_data_Centers.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.about-main{
+    background-image: url('./Images/About\ \(3\).jpg');
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+}
+
+.career-main{
+    background-image: url("./Images/hr-banner-plum.png");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.contact-main{
+    background-image: url("./Images/contact.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.contact-main-2{
+    background-image: url("./Images//contactcenter.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contact-center-main{
+    background-image: url('./Images//contactcenter.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.offshore-main{
+    background-image: url('./Images/offshore-main');
+    background-position: center;
+    background-size: cover;
+}
+.dispatch-order-main{
+    background-image: url('./Images/semi-truck-on-highway.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.taxi-main{
+    background-image: url('./Images/543\ \(1\).webp');
+    background-position: center;
+    background-size: cover;
+}
+.security-main{
+    background-image: url('./Images/AmericanHomeSecurity_Slide1.png');
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width: 640px) {
+    .security-main{
+        background-image: url('./Images/Home\ Security\ 1\ \(1\).jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    .dispatch-order-main{
+        background-image: url('./Images/istockphoto-627128354-612x612.jpg');
+        background-position: right;
+        background-size: cover;
+    }
+    .taxi-main{
+        background-image: url('./Images/taxi-new.webp');
+        background-position: top;
+        background-size: cover;
+    }
+}
